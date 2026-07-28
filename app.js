@@ -1,7 +1,7 @@
-const express = require('http');
-const path = require('path ');
+const express = require('express');
+const path = require('path');
 const app = express();
-const PORT = process.env.PORT || 3000 // Running on HTTP port 80
+const PORT = 80; // Running on HTTP port 80
 
 // Serve the "completion.html" page at the root path
 app.get('/', (req, res) => {
